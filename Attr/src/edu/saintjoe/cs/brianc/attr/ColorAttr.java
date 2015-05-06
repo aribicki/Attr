@@ -38,8 +38,8 @@ package edu.saintjoe.cs.brianc.attr;
 
 		// THIS is an example of method overriding!!!!!!!!!
 		public Object setValue(Object newValue)  {
-			    // do superclass stuff first
-			    Object retval = super.setValue(newValue);
+			    // do superclass stuff first // right below is over riding the set value
+			    Object retval = super.setValue(newValue); // this is done using the super
 			    decodeColor();
 			    return retval;
 			    }
