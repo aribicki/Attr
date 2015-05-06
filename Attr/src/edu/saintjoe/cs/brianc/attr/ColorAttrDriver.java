@@ -28,5 +28,11 @@ public class ColorAttrDriver {
 		testFour = new Attr("ColorFour", "yellow");
 		System.out.println(testFour.toString());
 		
+		testFive = new ColorAttr("ColorFive", "chartreuse");
+		System.out.println(testFive.toString());
+		
+		testSix = new ColorAttr("ColorSix", "crimson");
+		System.out.println(testSix.toString());
+		
 	} // end main
 }
