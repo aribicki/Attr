@@ -28,12 +28,12 @@ package edu.saintjoe.cs.brianc.attr;
 		    // System.out.println("C2");
 		    }
 
-		// constructor no 3
+		// constructor no 3 OVERLOADING BELOW!!!!!!!!!!!!!!!!!!!!!!!!!
 		// This constructor takes a name and a ScreenColor value
 		public ColorAttr(String name, ScreenColor value) {
-		    super(name, value.toString());
-		    //System.out.println("C3");
-		    myColor = value;
+		    super(name, value.toString()); // overload here instead of calling object value
+		    //System.out.println("C3");  // this is overloading above 
+		    myColor = value;  // calling the same method with different parameters 
 		    }
 
 		// THIS is an example of method overriding!!!!!!!!!
