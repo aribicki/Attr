@@ -21,12 +21,14 @@ public class ColorAttrDriver {
 		System.out.println(testTwo.toString());
 		
 		// Number three
-		testThree = new ColorAttr("ColorThree", newColor);
-		System.out.println(testThree.toString());
+		testThree = new ColorAttr("ColorThree", newColor); // adding a new object to colorattr
+		System.out.println(testThree.toString()); // this will be color three deemed a newcolor will use super
+		// this then prints the string representing the object 
 	
 		// Number four
-		testFour = new Attr("ColorFour", "yellow");
-		System.out.println(testFour.toString());
+		testFour = new Attr("ColorFour", "yellow"); // adds a new object to attr
+		System.out.println(testFour.toString()); // this deemed ColorFour with the value of yellow 
+		// this then prints the string representing the object 
 		
 		testFive = new ColorAttr("ColorFive", "chartreuse");
 		System.out.println(testFive.toString());
